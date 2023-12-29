@@ -3,6 +3,11 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
 }
 
 .gradientText0 {
@@ -142,4 +147,46 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.button {
+  background-color: #131313;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #272c34;
+  opacity: 80%;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.results li {
+  list-style: none;
+  margin: 0.25rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #131313;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
